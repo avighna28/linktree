@@ -43,6 +43,43 @@ const resources = [
 
 const linksGrid = document.getElementById('links-grid');
 const searchInput = document.getElementById('resource-search');
+const modal = document.getElementById('preview-modal');
+const modalTitle = document.getElementById('modal-title');
+const previewFrame = document.getElementById('preview-frame');
+const closeModalBtn = document.getElementById('close-modal');
+
+function getEmbedUrl(url) {
+    if (url.includes('dropbox.com')) {
+        // Transform dropbox link to embeddable raw link
+        return url.replace('dl=0', 'raw=1');
+    }
+    return url;
+}
+
+function isEmbeddable(url) {
+    // These sites usually block iframes
+    const nonEmbeddable = ['youtube.com', 'leetcode.com', 'hackerrank.com', 'takeuforward.org', 'geeksforgeeks.org', 'indiabix.com', 'hungrycoders.com', 'github.com'];
+    return !nonEmbeddable.some(site => url.includes(site));
+}
+
+function openModal(res) {
+    const embedUrl = getEmbedUrl(res.url);
+    modalTitle.textContent = res.title;
+    previewFrame.src = embedUrl;
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent scrolling
+}
+
+function closeModal() {
+    modal.classList.remove('active');
+    previewFrame.src = '';
+    document.body.style.overflow = 'auto';
+}
+
+closeModalBtn.addEventListener('click', closeModal);
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+});
 
 function renderLinks(filter = '') {
     linksGrid.innerHTML = '';
@@ -53,10 +90,22 @@ function renderLinks(filter = '') {
     filteredResources.forEach((res, index) => {
         const card = document.createElement('a');
         card.href = res.url;
-        card.target = "_blank";
         card.className = 'link-card';
         card.style.animationDelay = `${index * 0.05}s`;
         
+        // Decide whether to open in modal or new tab
+        const canEmbed = isEmbeddable(res.url);
+        
+        card.addEventListener('click', (e) => {
+            if (canEmbed) {
+                e.preventDefault();
+                openModal(res);
+            } else {
+                // If not embeddable, open in new tab normally
+                card.target = "_blank";
+            }
+        });
+
         card.innerHTML = `
             <div class="link-icon-circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
