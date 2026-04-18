@@ -11,7 +11,7 @@ const resources = [
     { title: "3-Month Roadmap - AI", url: "https://www.dropbox.com/scl/fi/90340vt6o59adz2xzmtqc/3-Month-Roadmap-AI.pdf?rlkey=rb4nfh1pfzkj56grv4gr99221&st=a8uy80oz&dl=0" },
     { title: "15-Days Coding Roadmap", url: "https://www.dropbox.com/scl/fi/kve9wpm8m0ig71xs3tr1l/15-Day-Programming-Language-Roadmap-Kaabil-Engineer.pdf?rlkey=kchk390xebdgk7co0wbnwwx7g&st=e1cv1yxc&dl=0" },
     { title: "Last minute Placement & Companies list", url: "https://www.dropbox.com/scl/fi/b135kjivq4uy7oqd1crx1/Last-minute-Placement-Companies-list.pdf?rlkey=4basn64expyds0951he969pa8&st=mu7gb2ub&dl=0" },
-    { title: "Kaabil DSA Sheet - Beginner Friendly", url: "https://www.dropbox.com/scl/fi/loh3j7xhowmt6tbkuthuf/Kaabil-Sheet-DSA-Beginner-Friendly.pdf?rlkey=padvbuso5le7h1e2o061y3guy&st=7xqt179y&dl=0" },
+    { title: "Ultimate DSA Sheet - Beginner Friendly", url: "https://www.dropbox.com/scl/fi/loh3j7xhowmt6tbkuthuf/Kaabil-Sheet-DSA-Beginner-Friendly.pdf?rlkey=padvbuso5le7h1e2o061y3guy&st=7xqt179y&dl=0" },
     { title: "OOPS Concept Guide", url: "https://www.dropbox.com/scl/fi/1xonaamwlc2jztlc7qdih/OOPS.pdf?rlkey=nexq5a88x2u3gaw7dkpci5sj4&st=i2mzmab8&dl=0" },
     { title: "Laptops Configs for Engineers", url: "https://www.dropbox.com/scl/fi/f0v531g9vclv4vef38hll/Laptops.pdf?rlkey=4jpxswy7oat6i4p18ksw4g9e1&st=l7pxz0u7&dl=0" },
     { title: "Leetcode SQL Top 50", url: "https://leetcode.com/studyplan/top-sql-50/" },
