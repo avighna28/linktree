@@ -37,8 +37,7 @@ const resources = [
     { title: "Basic Coding Snippets", url: "https://www.dropbox.com/scl/fi/9a1r4v2abe88upn60eka/basicscode.pdf?rlkey=ga9lzpezpu4236u13evyxel8d&st=47lgqvnt&dl=0" },
     { title: "Mock Aptitude Test Online", url: "https://www.indiabix.com/online-test/aptitude-test/" },
     { title: "DSA Basic Topics Foundation", url: "https://www.dropbox.com/scl/fi/w8692o9f6ptdtl729goez/basic.pdf?rlkey=w4t25lh9ca0ming72h80eb35e&st=z6jtfp19&dl=0" },
-    { title: "Aptitude Topics Comprehensive", url: "https://www.dropbox.com/scl/fi/srmvgrovwcq10j6iej16x/aptitude.pdf?rlkey=6fz5r4jy94yk5bxcdvf7cru50&st=xgic8vlo&dl=0" },
-    { title: "Official Github Profile", url: "https://github.com/kaabilengineer" }
+    { title: "Aptitude Topics Comprehensive", url: "https://www.dropbox.com/scl/fi/srmvgrovwcq10j6iej16x/aptitude.pdf?rlkey=6fz5r4jy94yk5bxcdvf7cru50&st=xgic8vlo&dl=0" }
 ];
 
 const linksGrid = document.getElementById('links-grid');
