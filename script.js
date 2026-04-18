@@ -13,7 +13,6 @@ const resources = [
     { title: "Last minute Placement & Companies list", url: "https://www.dropbox.com/scl/fi/b135kjivq4uy7oqd1crx1/Last-minute-Placement-Companies-list.pdf?rlkey=4basn64expyds0951he969pa8&st=mu7gb2ub&dl=0" },
     { title: "Ultimate DSA Sheet - Beginner Friendly", url: "https://www.dropbox.com/scl/fi/loh3j7xhowmt6tbkuthuf/Kaabil-Sheet-DSA-Beginner-Friendly.pdf?rlkey=padvbuso5le7h1e2o061y3guy&st=7xqt179y&dl=0" },
     { title: "OOPS Concept Guide", url: "https://www.dropbox.com/scl/fi/1xonaamwlc2jztlc7qdih/OOPS.pdf?rlkey=nexq5a88x2u3gaw7dkpci5sj4&st=i2mzmab8&dl=0" },
-    { title: "Laptops Configs for Engineers", url: "https://www.dropbox.com/scl/fi/f0v531g9vclv4vef38hll/Laptops.pdf?rlkey=4jpxswy7oat6i4p18ksw4g9e1&st=l7pxz0u7&dl=0" },
     { title: "Leetcode SQL Top 50", url: "https://leetcode.com/studyplan/top-sql-50/" },
     { title: "Hackerrank SQL Preparation", url: "https://www.hackerrank.com/domains/sql" },
     { title: "Java Blogs for Selection", url: "https://www.hungrycoders.com/blog" },
@@ -34,7 +33,6 @@ const resources = [
     { title: "10 Days Aptitude Preparation", url: "https://www.dropbox.com/scl/fi/oix11fqblta401w1itnb6/aptitudedays.pdf?rlkey=dk3zp5pkqe6dwddt17ddlt3eq&st=1tez2821&dl=0" },
     { title: "GFG DSA Practice Sheet", url: "https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/" },
     { title: "Beginner Project Ideas Collection", url: "https://www.dropbox.com/scl/fi/tyftd1lx3m4hvfu588ie5/projectsbasic.pdf?rlkey=fecxmuzpoht74lshx4xmszg2e&st=61omnx0u&dl=0" },
-    { title: "Basic Coding Snippets", url: "https://www.dropbox.com/scl/fi/9a1r4v2abe88upn60eka/basicscode.pdf?rlkey=ga9lzpezpu4236u13evyxel8d&st=47lgqvnt&dl=0" },
     { title: "Mock Aptitude Test Online", url: "https://www.indiabix.com/online-test/aptitude-test/" },
     { title: "DSA Basic Topics Foundation", url: "https://www.dropbox.com/scl/fi/w8692o9f6ptdtl729goez/basic.pdf?rlkey=w4t25lh9ca0ming72h80eb35e&st=z6jtfp19&dl=0" },
     { title: "Aptitude Topics Comprehensive", url: "https://www.dropbox.com/scl/fi/srmvgrovwcq10j6iej16x/aptitude.pdf?rlkey=6fz5r4jy94yk5bxcdvf7cru50&st=xgic8vlo&dl=0" }
