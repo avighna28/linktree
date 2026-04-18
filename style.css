@@ -43,7 +43,8 @@ body {
     border-radius: 50%;
     filter: blur(80px);
     opacity: 0.12;
-    transform: translateZ(0); /* Force GPU */
+    animation: move 20s infinite alternate;
+    transform: translateZ(0);
     will-change: transform;
 }
 
@@ -254,15 +255,17 @@ body {
     display: flex;
     align-items: center;
     padding: 1rem 1.25rem;
-    background: rgba(255, 255, 255, 0.05); /* Lighter than glass-bg for performance */
+    background: var(--glass-bg);
     border: 1px solid var(--glass-border);
     border-radius: 18px;
     text-decoration: none;
     transition: var(--transition);
+    backdrop-filter: blur(10px);
     animation: fadeInUp 0.5s ease-out forwards;
     height: 100%;
-    transform: translateZ(0);
-    will-change: transform, opacity;
+    transform: translate3d(0, 0, 0); /* 3D acceleration */
+    backface-visibility: hidden;
+    contain: content; /* Massive performance boost for grid items */
 }
 
 .link-card:hover {
