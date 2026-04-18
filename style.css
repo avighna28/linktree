@@ -1,12 +1,12 @@
 :root {
-    --bg-dark: #0a0a0c;
-    --accent-blue: #3b82f6;
-    --accent-purple: #8b5cf6;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --bg-dark: #050505;
+    --accent-blue: #60a5fa;
+    --accent-purple: #c084fc;
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 * {
@@ -127,18 +127,76 @@ body {
 /* Social Icons */
 .social-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .social-icon {
     color: var(--text-secondary);
     transition: var(--transition);
+    background: var(--glass-bg);
+    padding: 0.75rem;
+    border-radius: 50%;
+    border: 1px solid var(--glass-border);
 }
 
 .social-icon:hover {
     color: var(--text-primary);
-    transform: translateY(-3px);
+    transform: translateY(-5px);
+    border-color: var(--accent-blue);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mission Section */
+.mission-section {
+    width: 100%;
+    margin-bottom: 3rem;
+    animation: fadeIn 1.2s ease-out;
+}
+
+.mission-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 2.5rem;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+
+.mission-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, var(--accent-blue), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mission-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.credits {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.credit-badge {
+    padding: 0.5rem 1.25rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 100px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.credit-badge strong {
+    color: var(--text-primary);
 }
 
 /* Search bar */
