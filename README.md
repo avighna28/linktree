@@ -45,7 +45,7 @@ There isn't just one person behind this; it is a shared mission to make student 
 
 ## ❤️ Credits
 
-- **Vision & Idea**: [Aarti Jha](https://github.com/aarti-jha),[Avighna](https://github.com/avighna28)
+- **Vision & Idea**: [Aarti Jha](https://github.com/aarti-jha) & [Avighna](https://github.com/avighna28)
 - **Implementation & Design**: [Aarti Jha](https://github.com/aarti-jha) & [Avighna](https://github.com/avighna28)
 
 ---
