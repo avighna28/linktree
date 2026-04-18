@@ -75,6 +75,53 @@ modal.addEventListener('click', (e) => {
     if (e.target === modal) closeModal();
 });
 
+/* Custom Cursor Logic */
+const cursorDot = document.getElementById('cursor-dot');
+const cursorOutline = document.getElementById('cursor-outline');
+
+let mouseX = 0;
+let mouseY = 0;
+let outlineX = 0;
+let outlineY = 0;
+
+window.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    
+    // Immediate move for dot
+    cursorDot.style.left = `${mouseX}px`;
+    cursorDot.style.top = `${mouseY}px`;
+});
+
+function animateCursor() {
+    // Smooth trailing for outline (lerp)
+    outlineX += (mouseX - outlineX) * 0.15;
+    outlineY += (mouseY - outlineY) * 0.15;
+    
+    cursorOutline.style.left = `${outlineX}px`;
+    cursorOutline.style.top = `${outlineY}px`;
+    
+    requestAnimationFrame(animateCursor);
+}
+animateCursor();
+
+// Hover effect on links/buttons
+function addCursorHoverListeners() {
+    const interactables = document.querySelectorAll('a, button, input');
+    interactables.forEach(el => {
+        el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+        el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+    });
+}
+addCursorHoverListeners();
+
+// Re-add listeners when links are re-rendered
+const originalRenderLinks = renderLinks;
+renderLinks = function(filter) {
+    originalRenderLinks(filter);
+    addCursorHoverListeners();
+};
+
 function renderLinks(filter = '') {
     linksGrid.innerHTML = '';
     const filteredResources = resources.filter(res => 
