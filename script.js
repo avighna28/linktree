@@ -1,41 +1,41 @@
 const resources = [
-    { title: "2-Month Placement Roadmap", url: "https://www.dropbox.com/scl/fi/b6gh2xk66jdhfse790863/2-Month-Placement-Roadmap.pdf?rlkey=whzk94iouij67vove8hy6d8nr&st=1fm0qthp&dl=0" },
-    { title: "Coding Roadmap 1 month", url: "https://www.dropbox.com/scl/fi/k0ob4x05k1511ca0wc3al/Coding-Roadmap-1-month.pdf?rlkey=ysfpszikr6y27ul95bvqdfokb&st=zhje464d&dl=0" },
-    { title: "1 Month Roadmap for On-Campus Placements", url: "https://www.dropbox.com/scl/fi/vw7bih49dd4ztedlizbnk/1-Month-Roadmap-for-On-Campus-Placements.pdf?rlkey=3ukuvkdonrbevforsk0tfmbq5&st=bwrybywa&dl=0" },
-    { title: "Apply to 100 Companies Daily", url: "https://www.dropbox.com/scl/fi/3xtc6mdc8fq62oyz8v4y3/_Apply-to-100-Companies-Daily.pdf?rlkey=h7a7hjdh89jia83kcc4e31stb&st=hqrbv7q7&dl=0" },
-    { title: "Coding Problem Solving", url: "https://www.dropbox.com/scl/fi/yim9fvg55sjicrj61felj/Coding-Problem-Solving.pdf?rlkey=lr6jkur1an5hxcnng8pp6suk1&st=4q3kxif6&dl=0" },
-    { title: "Career Recovery & Growth Guide", url: "https://www.dropbox.com/scl/fi/diu3c5r4f11nl4i8dzmdb/Career-Recovery-Growth-Guide.pdf?rlkey=s7g301504k0cp6tlinxzbuox4&st=iyt94jpk&dl=0" },
-    { title: "Resume Template & Tips", url: "https://www.dropbox.com/scl/fi/0zbifyzbtduinv8n0g1ov/Resume-Template-Tips.pdf?rlkey=gkuxw4aw27avjvznuvzb4drvg&st=082wgvou&dl=0" },
-    { title: "Ultimate On-Campus Placement Preparation Module", url: "https://www.dropbox.com/scl/fi/38gcfcueterxslwpfhulm/Ultimate-On-Campus-Placement-Preparation-Module.pdf?rlkey=irw89xbi96mrliqedsc48u51j&st=dr0d7axj&dl=0" },
-    { title: "Programs & Internships for Women in Tech 2026", url: "https://www.dropbox.com/scl/fi/3hxop5fc2aj12rtdhard7/Programs-Internships-for-Women-in-Tech-2026.pdf?rlkey=zaeewf28atfnuexku33xegi1p&st=qz9vx7qk&dl=0" },
-    { title: "3-Month Roadmap - AI", url: "https://www.dropbox.com/scl/fi/90340vt6o59adz2xzmtqc/3-Month-Roadmap-AI.pdf?rlkey=rb4nfh1pfzkj56grv4gr99221&st=a8uy80oz&dl=0" },
-    { title: "15-Days Coding Roadmap", url: "https://www.dropbox.com/scl/fi/kve9wpm8m0ig71xs3tr1l/15-Day-Programming-Language-Roadmap-Kaabil-Engineer.pdf?rlkey=kchk390xebdgk7co0wbnwwx7g&st=e1cv1yxc&dl=0" },
-    { title: "Last minute Placement & Companies list", url: "https://www.dropbox.com/scl/fi/b135kjivq4uy7oqd1crx1/Last-minute-Placement-Companies-list.pdf?rlkey=4basn64expyds0951he969pa8&st=mu7gb2ub&dl=0" },
-    { title: "Ultimate DSA Sheet - Beginner Friendly", url: "https://www.dropbox.com/scl/fi/loh3j7xhowmt6tbkuthuf/Kaabil-Sheet-DSA-Beginner-Friendly.pdf?rlkey=padvbuso5le7h1e2o061y3guy&st=7xqt179y&dl=0" },
-    { title: "OOPS Concept Guide", url: "https://www.dropbox.com/scl/fi/1xonaamwlc2jztlc7qdih/OOPS.pdf?rlkey=nexq5a88x2u3gaw7dkpci5sj4&st=i2mzmab8&dl=0" },
+    { title: "2-Month Placement Roadmap", url: "assets/resources/2-Month-Placement-Roadmap.pdf" },
+    { title: "Coding Roadmap 1 month", url: "assets/resources/Coding-Roadmap-1-month.pdf" },
+    { title: "1 Month Roadmap for On-Campus Placements", url: "assets/resources/1-Month-Roadmap-for-On-Campus-Placements.pdf" },
+    { title: "Apply to 100 Companies Daily", url: "assets/resources/Apply-to-100-Companies-Daily.pdf" },
+    { title: "Coding Problem Solving", url: "assets/resources/Coding-Problem-Solving.pdf" },
+    { title: "Career Recovery & Growth Guide", url: "assets/resources/Career-Recovery---Growth-Guide.pdf" },
+    { title: "Resume Template & Tips", url: "assets/resources/Resume-Template---Tips.pdf" },
+    { title: "Ultimate On-Campus Placement Preparation Module", url: "assets/resources/Ultimate-On-Campus-Placement-Preparation-Module.pdf" },
+    { title: "Programs & Internships for Women in Tech 2026", url: "assets/resources/Programs---Internships-for-Women-in-Tech-2026.pdf" },
+    { title: "3-Month Roadmap - AI", url: "assets/resources/3-Month-Roadmap---AI.pdf" },
+    { title: "15-Days Coding Roadmap", url: "assets/resources/15-Days-Coding-Roadmap.pdf" },
+    { title: "Last minute Placement & Companies list", url: "assets/resources/Last-minute-Placement---Companies-list.pdf" },
+    { title: "Ultimate DSA Sheet - Beginner Friendly", url: "assets/resources/Ultimate-DSA-Sheet---Beginner-Friendly.pdf" },
+    { title: "OOPS Concept Guide", url: "assets/resources/OOPS-Concept-Guide.pdf" },
     { title: "Leetcode SQL Top 50", url: "https://leetcode.com/studyplan/top-sql-50/" },
     { title: "Hackerrank SQL Preparation", url: "https://www.hackerrank.com/domains/sql" },
     { title: "Java Blogs for Selection", url: "https://www.hungrycoders.com/blog" },
     { title: "Java Full Course Playlist", url: "https://www.youtube.com/@CodingwithAmanSahni" },
     { title: "GD Topics with Answers", url: "https://www.indiabix.com/group-discussion/topics-with-answers/" },
-    { title: "GD Tips & Strategy", url: "https://www.dropbox.com/scl/fi/b2z56lg6z30j3t5ikm2py/All-about-GD.pdf?rlkey=3uxdyo431atfqocjowsd2b2p7&st=mt8cxwxo&dl=0" },
-    { title: "Placement Drive Preparation Part 1", url: "https://www.dropbox.com/scl/fi/ob44ekp7vehjzukfwnc4v/Placement-Drive.pdf?rlkey=tnf2l7x3mbkkkzrp4738ecrzi&st=st8xzfqp&dl=0" },
-    { title: "AIML Roadmap PDF", url: "https://www.dropbox.com/scl/fi/gi4sqa21uy2uv91xyxmhv/AIML_Roadmap.pdf?rlkey=0yufljmevcbzjn6l3nbvh70ie&st=3jcbgisd&dl=0" },
-    { title: "Create Projects in 15 Days", url: "https://www.dropbox.com/scl/fi/pnxf5bk9n4obk3qrinm55/project-ideas.pdf?rlkey=qj1tzbqg6k9g5lug67ei5nwyk&st=t7db4nyt&dl=0" },
-    { title: "Learn any Programming Language Guide", url: "https://www.dropbox.com/scl/fi/od7q46wf46d1gci0tckn5/codingpractice.pdf?rlkey=ge7okwow39qi51q2gesddq8nm&st=pzl9e4rz&dl=0" },
+    { title: "GD Tips & Strategy", url: "assets/resources/GD-Tips---Strategy.pdf" },
+    { title: "Placement Drive Preparation Part 1", url: "assets/resources/Placement-Drive-Preparation-Part-1.pdf" },
+    { title: "AIML Roadmap PDF", url: "assets/resources/AIML-Roadmap-PDF.pdf" },
+    { title: "Create Projects in 15 Days", url: "assets/resources/Create-Projects-in-15-Days.pdf" },
+    { title: "Learn any Programming Language Guide", url: "assets/resources/Learn-any-Programming-Language-Guide.pdf" },
     { title: "HR Interview: Introduce Yourself", url: "https://www.indiabix.com/hr-interview/tell-me-about-yourself/" },
-    { title: "Project Report Template", url: "https://www.dropbox.com/scl/fi/7tzt9cx6v8n9wmw8fqll1/projecttemplate.pdf?rlkey=gnqq9c9o7f8jamsz11zoisg24&st=wnqw7gg8&dl=0" },
+    { title: "Project Report Template", url: "assets/resources/Project-Report-Template.pdf" },
     { title: "Blind 75 DSA Sheet", url: "https://takeuforward.org/interviews/blind-75-leetcode-problems-detailed-video-solutions" },
     { title: "Striver SDE DSA Sheet", url: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems" },
     { title: "Best A2Z DSA Sheet", url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2" },
-    { title: "Computer Science Core Subjects", url: "https://www.dropbox.com/scl/fi/j0xs4ia7aeaq0kuqjpq7a/allcore.pdf?rlkey=7mkdvf9osmbkfq2vp4sg6x50a&st=qdro29xh&dl=0" },
-    { title: "OOP & DBMS Preparation", url: "https://www.dropbox.com/scl/fi/v060ucqk01zj9c5juptoe/oop-dbms.pdf?rlkey=16crrnvzyqy387xqnize8ec86&st=unxv8i05&dl=0" },
-    { title: "10 Days Aptitude Preparation", url: "https://www.dropbox.com/scl/fi/oix11fqblta401w1itnb6/aptitudedays.pdf?rlkey=dk3zp5pkqe6dwddt17ddlt3eq&st=1tez2821&dl=0" },
+    { title: "Computer Science Core Subjects", url: "assets/resources/Computer-Science-Core-Subjects.pdf" },
+    { title: "OOP & DBMS Preparation", url: "assets/resources/OOP---DBMS-Preparation.pdf" },
+    { title: "10 Days Aptitude Preparation", url: "assets/resources/10-Days-Aptitude-Preparation.pdf" },
     { title: "GFG DSA Practice Sheet", url: "https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/" },
-    { title: "Beginner Project Ideas Collection", url: "https://www.dropbox.com/scl/fi/tyftd1lx3m4hvfu588ie5/projectsbasic.pdf?rlkey=fecxmuzpoht74lshx4xmszg2e&st=61omnx0u&dl=0" },
+    { title: "Beginner Project Ideas Collection", url: "assets/resources/Beginner-Project-Ideas-Collection.pdf" },
     { title: "Mock Aptitude Test Online", url: "https://www.indiabix.com/online-test/aptitude-test/" },
-    { title: "DSA Basic Topics Foundation", url: "https://www.dropbox.com/scl/fi/w8692o9f6ptdtl729goez/basic.pdf?rlkey=w4t25lh9ca0ming72h80eb35e&st=z6jtfp19&dl=0" },
-    { title: "Aptitude Topics Comprehensive", url: "https://www.dropbox.com/scl/fi/srmvgrovwcq10j6iej16x/aptitude.pdf?rlkey=6fz5r4jy94yk5bxcdvf7cru50&st=xgic8vlo&dl=0" }
+    { title: "DSA Basic Topics Foundation", url: "assets/resources/DSA-Basic-Topics-Foundation.pdf" },
+    { title: "Aptitude Topics Comprehensive", url: "assets/resources/Aptitude-Topics-Comprehensive.pdf" }
 ];
 
 const linksGrid = document.getElementById('links-grid');
@@ -46,15 +46,12 @@ const previewFrame = document.getElementById('preview-frame');
 const closeModalBtn = document.getElementById('close-modal');
 
 function getEmbedUrl(url) {
-    if (url.includes('dropbox.com')) {
-        // Transform dropbox link to embeddable raw link
-        return url.replace('dl=0', 'raw=1');
-    }
+    // Local files and direct PDFs can be viewed directly
     return url;
 }
 
 function isEmbeddable(url) {
-    // These sites usually block iframes
+    // These external sites usually block iframes
     const nonEmbeddable = ['youtube.com', 'leetcode.com', 'hackerrank.com', 'takeuforward.org', 'geeksforgeeks.org', 'indiabix.com', 'hungrycoders.com', 'github.com'];
     return !nonEmbeddable.some(site => url.includes(site));
 }
@@ -64,7 +61,7 @@ function openModal(res) {
     modalTitle.textContent = res.title;
     previewFrame.src = embedUrl;
     modal.classList.add('active');
-    document.body.style.overflow = 'hidden'; // Prevent scrolling
+    document.body.style.overflow = 'hidden'; 
 }
 
 function closeModal() {
@@ -90,7 +87,6 @@ function renderLinks(filter = '') {
         card.className = 'link-card';
         card.style.animationDelay = `${index * 0.05}s`;
         
-        // Decide whether to open in modal or new tab
         const canEmbed = isEmbeddable(res.url);
         
         card.addEventListener('click', (e) => {
@@ -98,7 +94,6 @@ function renderLinks(filter = '') {
                 e.preventDefault();
                 openModal(res);
             } else {
-                // If not embeddable, open in new tab normally
                 card.target = "_blank";
             }
         });
@@ -132,5 +127,4 @@ searchInput.addEventListener('input', (e) => {
     renderLinks(e.target.value);
 });
 
-// Initial render
 renderLinks();
