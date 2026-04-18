@@ -1,6 +1,6 @@
 # 🎓 Placement Roadmap Hub
 
-A premium, all-in-one resource library managed by **Aarti Jha** and **Avighna** to help students navigate the stress of placement preparation and academic planning.
+A premium, all-in-one resource library managed by **Arti Jha** and **Avighna** to help students navigate the stress of placement preparation and academic planning.
 
 ---
 
@@ -15,7 +15,7 @@ We decided to build a platform that acts as a **Single Source of Truth** for eve
 ### 🤝 A True Partnership
 This project is a result of a deep collaboration where every decision was made together. 
 
-*   **The Spark**: The core idea was envisioned by **Aarti Jha**. She recognized the gap in how students access resources and brought the vision to the table.
+*   **The Spark**: The core idea was envisioned by **Arti Jha**. She recognized the gap in how students access resources and brought the vision to the table.
 *   **The Evolution**: **Avighna** took that spark, added key architectural changes, and refined the idea into a high-performance web application.
 *   **The Execution**: Both worked side-by-side to implement the design, gather the resources, and build the premium "Placement Roadmap Hub" you see today.
 
@@ -45,8 +45,13 @@ There isn't just one person behind this; it is a shared mission to make student 
 
 ## ❤️ Credits
 
-- **Vision & Idea**: [Aarti Jha](https://github.com/aarti-jha) & [Avighna](https://github.com/avighna28)
-- **Implementation & Design**: [Aarti Jha](https://github.com/aarti-jha) & [Avighna](https://github.com/avighna28)
+- **Vision & Idea**: [Arti Jha](https://github.com/aarti-jha) & [Avighna](https://github.com/avighna28)
+- **Implementation & Design**: [Arti Jha](https://github.com/aarti-jha) & [Avighna](https://github.com/avighna28)
+
+---
+
+## 🌟 Contributions
+We welcome contributions! If you have a roadmap or resource that could help others, feel free to submit a pull request.
 
 ---
 
